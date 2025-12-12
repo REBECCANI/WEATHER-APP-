@@ -41,4 +41,4 @@ https://api.open-meteo.com/v1/forecast?latitude=<LAT>&longitude=<LON>&current_we
 
 👩🏾‍💻 Author
 
-Nishimwe Rebecca
+Rebecca Nishimwe 
