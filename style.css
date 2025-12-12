@@ -1,0 +1,76 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Page styling */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Main weather container */
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px 30px;
+  border-radius: 16px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Title */
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+/* Output box */
+#result {
+  margin-top: 18px;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  min-height: 60px;
+}
